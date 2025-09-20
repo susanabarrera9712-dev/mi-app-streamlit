@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 #Cargamos el modelo
 import pickle
-filename = 'modelo-reg.pkl'
+filename = 'modelo.pkl'
 model_Tree,model_Knn, model_NN, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
 
 
