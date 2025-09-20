@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #Cargamos el modelo
 import pickle
 filename = 'modelo-reg.pkl'
-model_Tree, model_rf,model_Knn, model_NN, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
+model_Tree,model_Knn, model_NN, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
 
 
 #Se crea interfaz gráfica con streamlit para captura de los datos
